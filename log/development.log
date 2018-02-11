@@ -29884,3 +29884,188 @@ ActionController::RoutingError (No route matches [GET] "/images/icons/favicon-32
   Rendered /Users/bharani/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
   Rendered /Users/bharani/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /Users/bharani/.rvm/gems/ruby-2.2.4/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (71.6ms)
+Started GET "/" for ::1 at 2018-02-11 17:02:52 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.5ms)
+  Rendered shared/_header_meta.html.erb (0.4ms)
+Started GET "/app/advertisements/1" for ::1 at 2018-02-11 17:02:53 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/app/advertisements/1"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/server.rb:308:in `block in start_thread'
+  Rendered shared/_header.html.erb (0.5ms)
+  Rendered shared/_sidebar.html.erb (6.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered shared/_customization_modal.html.erb (8.4ms)
+Completed 200 OK in 3848ms (Views: 3638.0ms)
+
+
+Started GET "/" for ::1 at 2018-02-11 17:02:57 +1000
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+  Rendered shared/_header_meta.html.erb (0.2ms)
+  Rendered shared/_header.html.erb (0.8ms)
+  Rendered shared/_sidebar.html.erb (5.6ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+  Rendered shared/_customization_modal.html.erb (5.5ms)
+Completed 200 OK in 64ms (Views: 62.3ms)
+
+
+Started GET "/assets/application.self-3d58c097eeb59c2e00aa415350ae6578daa6acb2efeb5adb5716a9d7d2f06e81.css?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/vendor/bootstrap.min.self-acc6a813b6dc0a695296b4fec3ca7fbc48269ab0b6345aa4c4acb64b80267dad.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/vendor/aos.self-49800f2733ba880c7988facea04b1e4879c6a0020878b5861df3604329b54ae6.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/vendor/jquery.pjax.min.self-09dc488ae76de5d9db542cd649620aad4bd400b3a1245b87f5799cd7c811e586.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/vendor/jquery.slimscroll.min.self-0316fd0efddc66afc94d81460b273a30ede6f321e180b051af4b4b2b970acb3f.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/custom/pjax-setup.self-09773234515d2f35d1fe889c3bbc72bfe6bcc10000e2c7b98132709fba1fed53.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/custom/box.self-b3e1ec436315a3294477b34758ef76603250894b091a5d4fe4fba97d541944a6.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/custom/offcanvas.self-d93883c9ef67cbc3ca15fc5b89c64b3c6a1063e5501ded8e2fbbf1a1078406f2.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/custom/tree-menu.self-c340551514634425445432d379ddbf1a0bcaba1f4df689eae5a7d9db763d4b20.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/main.self-ff570c92a2702bbd8b54478a51e5471501c9bd6dd345f39483447ee54bc9d36d.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/application.self-79488488398f5f5aed236dd6e9f914599370d04dfe70fda61b8c83bf739b1088.js?body=1" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/pages/dashboard.js" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/sidebar-thumbs/starry-64adae68013a679dd8be628a109d38fb1244cfa377ba5b7be8e92af7a6eecc18.jpg" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/sidebar-thumbs/misty-mountains-1d3ba12a43b57597e1d1db984f1ac77d1cbd5337f4ac2652eabb0ee3a108b73d.jpg" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/sidebar-thumbs/dark-waves-165f2ad15537401c17e8f0a5c254a36998109040261e10995a29455948be7697.jpg" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/default-50x50.gif" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/sidebar-thumbs/sunrise-2f3eafb06475e3967a35da3a6fe662632cbec37e206359626546140d2a940a4b.jpg" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/sidebar-thumbs/starry-mountains-0dd0a09e0f7ef11e692d861c5f902c7bde7c466d0fb98e97cadd98ca80d9b42f.jpg" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/sidebar-thumbs/rocky-beach-0bfbdc5eeefb850c3912ec307553fca9a1040608c760a8f53549e2e51de3c63c.jpg" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/assets/sidebar-bgs/misty-mountains.jpg" for ::1 at 2018-02-11 17:02:57 +1000
+Started GET "/images/icons/favicon-32x32.png" for ::1 at 2018-02-11 17:03:02 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/images/icons/favicon-32x32.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/server.rb:308:in `block in start_thread'
+Started GET "/images/icons/favicon-16x16.png" for ::1 at 2018-02-11 17:03:03 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/images/icons/favicon-16x16.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/server.rb:308:in `block in start_thread'
+Started GET "/images/icons/favicon-96x96.png" for ::1 at 2018-02-11 17:03:03 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/images/icons/favicon-96x96.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/server.rb:308:in `block in start_thread'
+Started GET "/images/icons/android-chrome-192x192.png" for ::1 at 2018-02-11 17:03:03 +1000
+  
+ActionController::RoutingError (No route matches [GET] "/images/icons/android-chrome-192x192.png"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+rack (2.0.4) lib/rack/handler/webrick.rb:86:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:140:in `service'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/httpserver.rb:96:in `run'
+/Users/benstrachan/.rvm/rubies/ruby-2.4.3/lib/ruby/2.4.0/webrick/server.rb:308:in `block in start_thread'
