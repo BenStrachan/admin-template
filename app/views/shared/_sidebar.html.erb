@@ -1,0 +1,293 @@
+<aside class="main-sidebar">
+  <section class="sidebar">
+    <div class="user-panel">
+      <div class="pull-left image">
+        <img src="http://i.pravatar.cc/300?img=59" class="img-circle" alt="User Image">
+      </div>
+      <div class="pull-left info">
+        <p>Zachary Banks</p>
+        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+      </div>
+    </div>
+    <ul class="sidebar-menu">
+      <li class="header">MAIN NAVIGATION</li>
+      <li>
+        <%= link_to root_path, data: { pjax: true} do %>
+          <i class="fa fa-circle-o"></i>
+          <span>Dashboard</span>
+        <% end %>
+      </li>
+
+      <li class="header">GENERAL PAGES</li>
+      <li>
+        <%= link_to page_path(page: "widgets"), data: { pjax: true} do %>
+          <i class="fa fa-th"></i>
+          <span>Widgets</span>
+          <small class="label pull-right bg-green">Hot</small>
+        <% end %>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-pie-chart"></i>
+          <span>Charts</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li>
+            <%= link_to page_path(page: "chartjs"), data: { pjax: true} do %>
+              <i class="fa fa-line-chart"></i>
+              ChartJS
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "morris"), data: { pjax: true} do %>
+              <i class="fa fa-bar-chart"></i>
+              Morris
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "flot"), data: { pjax: true} do %>
+              <i class="fa fa-area-chart"></i>
+              Flot
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "inline_charts"), data: { pjax: true} do %>
+              <i class="fa fa-signal"></i>
+              Inline charts
+            <% end %>
+          </li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-laptop"></i>
+          <span>UI Elements</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li>
+            <%= link_to page_path(page: "ui_basic"), data: { pjax: true} do %>
+              <i class="fa fa-asterisk"></i>
+              General
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "icons"), data: { pjax: true} do %>
+              <i class="fa fa-fonticons"></i>
+              Icons
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "buttons"), data: { pjax: true} do %>
+              <i class="fa fa-hand-pointer-o"></i>
+              Buttons
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "slider"), data: { pjax: true} do %>
+              <i class="fa fa-sliders"></i>
+              Sliders &amp; Toggles
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "timeline"), data: { pjax: true} do %>
+              <i class="fa fa-clock-o"></i>
+              Timeline
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "modals"), data: { pjax: true} do %>
+              <i class="fa fa-bullhorn"></i>
+              Modals
+            <% end %>
+          </li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-edit"></i> <span>Forms</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li>
+            <%= link_to page_path(page: "forms_simple"), data: { pjax: true} do %>
+              <i class="fa fa-keyboard-o"></i>
+              General Elements
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "forms_custom"), data: { pjax: true} do %>
+              <i class="fa fa-check-square"></i>
+              Custom Form Elements
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "forms_editor"), data: { pjax: true} do %>
+              <i class="fa fa-paragraph"></i>
+              Rich Text Editors
+            <% end %>
+          </li>
+        </ul>
+      </li>
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-table"></i> <span>Tables</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li>
+            <%= link_to page_path(page: "tables_simple"), data: { pjax: true} do %>
+              <i class="fa fa-table"></i>
+              Simple tables
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "tables_data"), data: { pjax: true} do %>
+              <i class="fa fa-list-alt"></i>
+              Data tables
+            <% end %>
+          </li>
+        </ul>
+      </li>
+
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-folder"></i> <span>Custom Pages</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+
+        <ul class="treeview-menu">
+          <li>
+            <%= link_to page_path(page: "invoice"), data: { pjax: true} do %>
+              <i class="fa fa-money"></i>
+              Invoice
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "profile"), data: { pjax: true} do %>
+              <i class="fa fa-user"></i>
+              Profile & Timeline
+            <% end %>
+          </li>
+          <li>
+            <%= link_to login_path do %>
+              <i class="fa fa-sign-in"></i>
+              Login
+            <% end %>
+          </li>
+          <li>
+            <%= link_to signup_path do %>
+              <i class="fa fa-sign-out"></i>
+              Signup
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "404"), data: { pjax: true} do %>
+              <i class="fa fa-exclamation-circle"></i>
+              404 Error
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "500"), data: { pjax: true} do %>
+              <i class="fa fa-exclamation-triangle"></i>
+              500 Error
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "blank"), data: { pjax: true} do %>
+              <i class="fa fa-circle-o"></i>
+              Blank Page
+            <% end %>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <%= link_to page_path(page: "calendar"), data: { pjax: true} do %>
+          <i class="fa fa-calendar"></i> <span>Calendar</span>
+          <small class="label pull-right bg-red">3</small>
+        <% end %>
+      </li>
+
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-envelope-o"></i> <span>Email &amp; Chat</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+
+        <ul class="treeview-menu">
+          <li>
+            <%= link_to page_path(page: "email_inbox"), data: { pjax: true} do %>
+              <i class="fa fa-envelope"></i>
+              Inbox
+            <% end %>
+          </li>
+          <li>
+            <%= link_to page_path(page: "email_compose"), data: { pjax: true} do %>
+              <i class="fa fa-pencil"></i>
+              Compose New Email
+            <% end %>
+          </li>
+        </ul>
+      </li>
+
+      <li class="treeview">
+        <a href="#">
+          <i class="fa fa-share"></i> <span>Multilevel Menu</span>
+          <i class="fa fa-angle-left pull-right"></i>
+        </a>
+        <ul class="treeview-menu">
+          <li>
+            <a href="#">
+              <i class="fa fa-circle-o"></i>
+              Level One
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-circle-o"></i>
+              Level One
+              <i class="fa fa-angle-left pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+              <li>
+                <a href="#">
+                  <i class="fa fa-circle-o"></i>
+                  Level Two
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa fa-circle-o"></i>
+                  Level Two
+                  <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                  <li>
+                    <a href="#">
+                      <i class="fa fa-circle-o"></i>
+                      Level Three
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-circle-o"></i>
+                      Level Three
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa fa-circle-o"></i>
+              Level One
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <!-- /.sidebar -->
+</aside>
